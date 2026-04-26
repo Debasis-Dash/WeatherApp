@@ -1,0 +1,84 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1765316007471-f2f6c1d1893c?q=80&w=1920&auto=format&fit=crop");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.weather{
+    margin: 30px;
+}
+.city{
+    padding: 10px;
+    font-size:  2rem;
+    font-weight: bold;
+    border: 2px solid rgba(0, 0, 0, 0.738);
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+button[type="submit"]{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color:rgba(6, 231, 6, 0.748);
+    color: whitesmoke;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+     background-color:rgba(33, 255, 33, 0.748);
+}
+.card{
+   background: linear-gradient(180deg,hsl(210, 100%, 75%),hsla(39, 100%, 60%));
+   padding: 50px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.326);
+   border-radius: 10px;
+   min-width: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+h1{
+   
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+.citydis,.tempdisplay{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:hsla(0, 0%, 0%, 0.8);
+    margin-bottom: 25px;
+}
+.Humidity{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.descript{
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-style: italic;
+    font-size: 2 rem;
+}
+.Wemoji{
+    font-size: 7.5rem;
+    margin: 0;
+}
+.erorcity{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:hsla(0, 0%, 0%, 0.8)
+}
